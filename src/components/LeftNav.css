@@ -1,0 +1,27 @@
+.left-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    max-width: 3.5%;
+    background-color: #2d3844;
+    padding: 20px;
+    box-shadow: 4px 0px 10px rgba(220, 220, 220, 0.087);
+}
+
+.left-nav img {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.manager-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.manager-options img {
+    padding: 0.3rem;
+    margin-top: 0.4rem;
+}
