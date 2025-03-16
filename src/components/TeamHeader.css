@@ -1,0 +1,85 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+
+.team-info {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.team-info img {
+    height: 1.8rem;
+    width: 1.8rem;
+}
+
+.countryn-name {
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+}
+
+.country > * {
+    margin-right: 0.2rem;
+}
+
+.country img {
+    height: 12px;
+    width: 18px;
+    border: 1px solid #000;
+    background-color: rgba(0,0,0,.05);
+}
+
+.profile-team {
+    line-height: 22px;
+}
+
+.team-name {
+    font-size: 24px;
+    color: #929a9e;
+    font-weight: 700;
+    margin: 0;
+}
+
+#team-logo {
+    height: 3rem;
+    width: 3rem;
+}
+
+.header .cash {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.header .cash p {
+    color: #48752C;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.header .expenses {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.header .expenses p {
+    color: #8C1A10;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.finances-info {
+    display: flex;
+    gap: 2rem;
+}
+
+.finances-info img {
+    width: 2rem;
+    height: 2rem;
+}

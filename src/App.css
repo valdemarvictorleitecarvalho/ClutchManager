@@ -1,0 +1,6 @@
+#root {
+    display: grid;
+    grid-template-columns: 1fr 15fr;
+    grid-template-rows: 80px 15fr;
+    height: 100vh;
+}
