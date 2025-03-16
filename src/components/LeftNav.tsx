@@ -5,7 +5,7 @@ function LeftNav() {
     return (
         <>
             <nav className="left-nav">
-                <img src={assets.rifleImg} alt="ak-logo"></img>
+                <img id="game-logo" src={assets.cs2Logo} alt="cs2-logo"></img>
             
                 <div className="manager-options">
                     <img src={assets.homeIcon} alt="home"></img>
@@ -19,7 +19,7 @@ function LeftNav() {
                     <img src={assets.financesIcon} alt="finances"></img>
                 </div>
             
-                <img src={assets.settingsIcon} alt="conf-wheel"></img>
+                <img id="conf-wheel" src={assets.settingsIcon} alt="conf-wheel"></img>
             </nav>
         </>
     );

@@ -9,6 +9,7 @@ import radarIcon from "./radar.svg";
 import squadIcon from "./squad.svg";
 import marketIcon from "./store.svg";
 import trainingIcon from "./training.svg";
+import cs2Logo from "./cs2logo.png";
 
 const assets = {
     rifleImg,
@@ -21,7 +22,8 @@ const assets = {
     radarIcon,
     squadIcon,
     marketIcon,
-    trainingIcon
+    trainingIcon,
+    cs2Logo
 };
 
 export default assets;
