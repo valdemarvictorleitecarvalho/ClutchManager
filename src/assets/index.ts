@@ -14,6 +14,7 @@ import cashMoney from "./cashmoney.svg";
 import monthExpenses from "./monthexpenses.svg";
 import notificationDown from "./notificationdown.svg"
 import notificationUp from "./notificationup.svg";
+import overallImg from "./overall.svg";
 
 const assets = {
     rifleImg,
@@ -31,7 +32,8 @@ const assets = {
     cashMoney,
     monthExpenses,
     notificationDown,
-    notificationUp
+    notificationUp,
+    overallImg
 };
 
 export default assets;
